@@ -1,0 +1,17 @@
+function sumPrimes(num) {
+    let arrFinal = [2]
+    for(let i = 3; i <= num;i++){
+        for(let j = 0 ; j < arrFinal.length;j++){
+        console.log(j)
+        arrFinal.push(j)
+            /*if( i % arrFinal[j]!=0 && j == arrFinal.length ){
+                console.log(arrFinal[j])
+                arrFinal.push(i)
+            }else if( i % arrFinal[j] == 0){
+                break;
+            }*/
+    }}
+    return arrFinal;
+  }
+  
+  console.log(sumPrimes(10));

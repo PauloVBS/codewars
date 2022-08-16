@@ -1,0 +1,11 @@
+function nbYear(p0, percent, aug, p) {
+    // loop
+    let anos=0;
+    let finalvalue=p0
+       while (p>p0){
+        finalvalue= finalvalue+(percent*finalvalue/100)+aug;
+        anos++
+    }
+    return anos;
+    }
+  console.log(nbYear(1000, 2,50, 1200))
